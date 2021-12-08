@@ -31,6 +31,7 @@ html {
 
 .image-container img {
   display: block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -229,7 +230,8 @@ header .mobile {
 
 .feature {
   flex: 1;
-  padding: 2rem;
+  height: 39.6875rem;
+  padding: 2rem 0;
   margin: 0px 1.25rem;
   background-color: white;
 }
@@ -245,6 +247,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  margin-top: 2.5rem;
 }
 
 .feature h3 {
