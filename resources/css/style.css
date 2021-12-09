@@ -365,10 +365,9 @@ header .desktop .button {
 }
 
 @media only screen and (max-width: 760px) {
-#filters-section .content {
-  width:auto;
-}
-
+  #filters-section .content {
+    width:auto;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -430,12 +429,16 @@ header .desktop .button {
   }
 
   #quotes-section .quote {
+    display: inline-block;
+    width: 75%;
+    text-align: left;
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
   #quotes-section .quote-citation {
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     padding-top: 1rem;
     margin: auto;
   }
