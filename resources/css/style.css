@@ -269,7 +269,7 @@ header .desktop .button {
   margin: 0 10%;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 760px) {
   .feature h2 {
     font-size: 1.125rem;
     line-height: 1.3;
@@ -282,7 +282,7 @@ header .desktop .button {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   #features-section {
     flex-flow: column;
     padding: 0;
