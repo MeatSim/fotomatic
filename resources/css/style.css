@@ -332,13 +332,17 @@ header .desktop .button {
     font-size: 1.125rem;
     line-height: 1.3;
     font-weight: normal;
+    text-align: center;
   }
 
   .feature h3 {
     font-size: .875rem;
     line-height: 1.4;
+    text-align: center;
+    margin-bottom: 1.875rem;
   }
- #features-section {
+ 
+  #features-section {
     flex-flow: column;
     padding: 0;
   }
@@ -346,6 +350,23 @@ header .desktop .button {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature:first-of-type {
+    background-color: #d9d9d9;
+  }
+
+  .feature .image-container {
+    width: 100%;
+    height: 10rem;
+    overflow-x: hidden;
+  }
+
+  .feature img {
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 1.5rem;
   }
 }
 
