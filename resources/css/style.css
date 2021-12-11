@@ -404,8 +404,13 @@ header .desktop .button {
 }
 
 @media only screen and (max-width: 760px) {
+  #filters-section {
+    padding-bottom: 0;
+  }
+  
   #filters-section .content {
     width:auto;
+    margin-bottom: 4rem;
   }
 }
 
@@ -415,7 +420,7 @@ header .desktop .button {
   }
 
   #filters-section .content {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   #filters-section .content h2 {
