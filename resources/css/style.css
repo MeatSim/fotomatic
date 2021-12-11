@@ -471,8 +471,6 @@ header .desktop .button {
     display: inline-block;
     width: 75%;
     text-align: left;
-    font-size: 1.5rem;
-    line-height: 1.4;
   }
 
   #quotes-section .quote-citation {
@@ -480,6 +478,16 @@ header .desktop .button {
     vertical-align: top;
     padding-top: 1rem;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #quotes-section .quote {
+    width: 100%;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: center;
   }
 }
 
