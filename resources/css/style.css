@@ -469,7 +469,7 @@ header .desktop .button {
 
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
-    padding: 1.875rem .625rem;
+    padding: 3rem .625rem;
   }
 
   #quotes-section .quote {
