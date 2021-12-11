@@ -433,6 +433,7 @@ header .desktop .button {
   #filters-section .content h3 {
     font-size: .875rem;
     line-height: 1.4;
+    padding-bottom: 1.5rem;
   }
 
   #filters-section .images-container {
